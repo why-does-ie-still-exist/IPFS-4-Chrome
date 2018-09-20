@@ -1,0 +1,25 @@
+{
+    "name": "IPFS 4 Chrome",
+    "description": "Base Level Extension",
+    "version": "1.0",
+    "manifest_version": 2,
+    "omnibox": {
+        "keyword": "ipfs"
+    },
+    "browser_action": {
+        "default_popup": "main.html",
+        "default_icon": "logo.png"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "background": {
+        "persistent": true,
+        "scripts": [
+            "main.js"
+        ]
+    },
+    "icons": {
+        "16": "16x16.png"
+    }
+}
